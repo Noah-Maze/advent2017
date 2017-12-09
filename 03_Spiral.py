@@ -1,4 +1,5 @@
 
+
 def manhattan_sp(desired_cell):
     ''' Return the manhattan distance
         from Cell Number 1 for a
