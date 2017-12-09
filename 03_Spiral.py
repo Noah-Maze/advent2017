@@ -1,14 +1,7 @@
 
 def man(max_idx):
     def rotate(heading):
-        if heading==(1,0):
-            return (0,1)
-        if heading==(0,1):
-            return (-1,0)
-        if heading==(-1,0):
-            return (0,-1)
-        if heading==(0,-1):
-            return (1,0)
+        return (-heading[1], heading[0])
     def hallways():
         i = 1
         while True:
