@@ -46,8 +46,9 @@ Your puzzle answer was 1244.
 
 def sum_of_repeats(in_str, offset=1):
     ''' Returns the sum of all numbers
-        in the string that have a twin
-        <offest> characters to the right
+        in the circular buffer that
+        have a twin exactly <offset>
+        characters to the right
     '''
     sum =0
     for i in range(len(in_str)):
