@@ -1,5 +1,6 @@
 import requests
 import os
+from math import floor, ceil
 
 session = os.getenv('AOC_COOKIE')
 def test():
@@ -18,3 +19,6 @@ def get_day(day_num):
     with open(cache_path, 'w') as f:
         f.write(input)
     return input
+
+iceil = lambda x: int(ceil(x))
+ifloor = lambda x: int(floor(x))

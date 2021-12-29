@@ -1,10 +1,6 @@
 from aoc_util import *
 
 from collections import Counter
-from math import floor, ceil
-
-iceil = lambda x: int(ceil(x))
-ifloor = lambda x: int(floor(x))
 
 test()
 
