@@ -105,7 +105,6 @@ def two(input):
         # Convert output signal to digits
         output_values = all_output_values[idx]
         def translate(bad_signal):
-
             return signals_digit[''.join(sorted([translator[b] for b in bad_signal]))]
         numerical_output = 1000 * translate(output_values[0]) + \
                            100 * translate(output_values[1]) + \
@@ -120,4 +119,4 @@ print("Example Two:")
 two(example_input)
 
 print("Real Two:")
-two(input)
+# two(input)
