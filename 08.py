@@ -113,10 +113,8 @@ def two(input):
         numerical_output_sum += numerical_output
     print(numerical_output_sum)
 
-
-
 print("Example Two:")
 two(example_input)
 
 print("Real Two:")
-# two(input)
+two(input)
